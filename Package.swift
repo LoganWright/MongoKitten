@@ -12,3 +12,4 @@ let package = Package(
 )
 
 let lib = Product(name: "MongoKitten", type: .Library(.Dynamic), modules: "MongoKitten")
+products.append(lib)
